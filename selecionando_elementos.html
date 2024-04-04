@@ -6,12 +6,10 @@
     <title>Manipulando o DOM</title>
 </head>
 <body>
-    <input onfocus="console.log(`recebeu o foco`);" onblur="console.log(`perdeu o foco`)" type="text">
+    <input type="text" placeholder="Digite seu nome" id="nome_usuario" class="nomeUser" name="nome"> 
 
-    <select onchange="console.log(`Estado foi modificado`)" name="" id="">
-        <option>-- Selecione --</option>
-        <option value="1">Primeira Opção</option>
-        <option value="2">Segunda Opção</option>
-    </select>
+    <script src="">
+        console.log(document.getElementById("nome_usuario"));
+    </script>
 </body>
 </html>
